@@ -283,7 +283,7 @@ Paso 6. Guarda los cambios realizados y mantén el libro abierto.
 
 ![img216](../images/img216.png)
 
-# Parte 1. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines).
+# Parte 4. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines).
 
 ## Objetivo de la práctica:
 
@@ -363,7 +363,6 @@ Paso 3. En la segmentación de Vendedor (Salesperson), selecciona Anderson.
 ![img225](../images/img225.png)
 
 Verifica que la tabla dinámica (PivotTable) y el gráfico dinámico (PivotChart) se actualicen para mostrar las ventas totales de Anderson en Texas (TX) en el cuarto trimestre (Q4), observando que Anderson no tiene ventas en Nuevo México (NM).
-
 
 ### Resultado esperado:
 ![img226](../images/img226.png)
