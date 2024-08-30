@@ -1,5 +1,5 @@
-# Funciones que podría usar el instructor
-En este documento se muestran algunas muestras de formatos que se pueden usar en el archivo **README.me** que pueden ser de ayuda para el instructor
+# Funciones que podría usar el instructor.
+En este documento se muestran algunas muestras de formatos que se pueden usar en el archivo **README.me** que pueden ser de ayuda para el instructor:
 
 - [Fragmentos de código](#fragmentos-de-codigo)
 - [Listas](#listas)
@@ -7,14 +7,15 @@ En este documento se muestran algunas muestras de formatos que se pueden usar en
 - [Insertar imágenes](#imagenes)
 - [Alertas](#alertas)
 
-# Fragmentos de codigo
+# Fragmentos de código:
 
 
-## Bloques de código
+## Bloques de código:
+
 Para agregar algún fragmento de código debemos de usar la siguiente sintáxis:
 
 
-### Python
+### Python:
 
 ```python
 import datetime
@@ -31,7 +32,7 @@ print(fecha)
 print(type(fecha))
 ```
 
-### Java
+### Java:
 ```java
 public void cleanup() {
         try {
@@ -45,7 +46,7 @@ public void cleanup() {
 ```
 
 
-### shell
+### shell:
 ```shell
 #!/bin/sh
 
@@ -56,14 +57,14 @@ until [ $CONTADOR – ge 3]]; do
 done
 ```
 
-### Ruby
+### Ruby:
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-### HTML
+### HTML:
 
 ```html
 <!DOCTYPE html>
@@ -80,7 +81,7 @@ puts markdown.to_html
 
 ```
 
-### Javascript
+### Javascript:
 
 ```javascript
 var database=db.getSiblingDB("database")
@@ -99,19 +100,19 @@ data.forEach(t=>{
 })
 
 ```
-# Listas
+# Listas:
 
-## Lista simple
+## Lista simple:
 - elemento 1
 - elemento 2
 - elemento 3
 
-## Lista números
+## Lista números:
 1. elemento 1
 2. elemento 2
 3. elemento 3
 
-## Lista anidada
+## Lista anidada:
 - Elemento principal
     - Elemento interno 1
     - Elemento interno 2
@@ -119,15 +120,15 @@ data.forEach(t=>{
         - elemento
     - elemento interno 3
 
-## Lista de tareas
+## Lista de tareas:
 - [ ] tarea 1
 - [x] tarea 2
 - [ ] tarea 3 
 - [ ] \(Optional) tarea opcional 
 
-# Tablas
+# Tablas:
 
-## Tabla simple
+## Tabla simple:
 
 | título columna 1  | título columna 2|
 | ------------- | ------------- |
@@ -135,7 +136,7 @@ data.forEach(t=>{
 | contenido 3  | contenido 4  |
 
 
-## Tabla con formato en las columnas
+## Tabla con formato en las columnas:
 
 | Command | Description |
 | --- | --- |
@@ -143,64 +144,65 @@ data.forEach(t=>{
 | `git diff` | Show file differences that **haven't been** staged |
 
 
-## Alinear contenido en tabla
+## Alinear contenido en tabla:
+
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
-# Imagenes
+# Imágenes:
 
-Para insertar una imágen se usa la siguiente sintáxis:
+Para insertar una imagen se usa la siguiente sintáxis:
 
 ```
 ![descripción de la imagen](url imagen)
 ```
-El url de la imágen puede ser de la siguiente forma:
+El url de la imagen puede ser de la siguiente forma:
 
-- Si la imágen esta dentro de la misma rama se usa la siguiente sintaxis:
+- Si la imagen esta dentro de la misma rama se usa la siguiente sintaxis:
     ```
      ![description](/assets/images/imagen1.png)
     ```
     - Donde:
         - la ruta */assets/images* esta dentro de la rama donde se encuentra el archivo **README.md**
 
-- Si la imágen esta en otra rama se usa la siguiente sintaxis:
+- Si la imagen esta en otra rama se usa la siguiente sintaxis:
     ```
     ![description](/../name_branch/assets/images/imagen1.png)
     ```
     - Donde: 
         - La ruta */../name_branch/assets/images/* esta dentro de el mismo repositorio pero es una rama diferente. 
 
-- Si la imagén esta en internet se usa la siguiente sintaxis: 
+- Si la imagen esta en internet se usa la siguiente sintaxis: 
     ``` 
      ![description](https://url/imagen.png)
     ```
-- Si se quiere controlar el tamaño de la imágen se debe usar html, de la siguiente forma:
+- Si se quiere controlar el tamaño de la imagen se debe usar html, de la siguiente forma:
     ``` html
     <img src="url image" width="200" height="200">
      
     ```
     - Donde: 
         - En el html se pueden editar los siguiente elementos: 
-            - **url image**:  La ruta de la imágen
-            - **width**: Ancho de la imágen en pixeles
-            - **height**: Alto de la imágen en pixeles
+            - **url image**:  La ruta de la imagen
+            - **width**: Ancho de la imagen en pixeles
+            - **height**: Alto de la imagen en pixeles
 
 
-# Alertas
+# Alertas:
 
 > [!NOTE]
-> útil para agregar alguna nota extra
+> útil para agregar alguna nota extra.
 
 > [!TIP]
-> útil para dar algún tip
+> útil para dar algún tip.
 
 > [!IMPORTANT]
-> útil para algún recordatorio
+> útil para algún recordatorio.
 
 > [!WARNING]
-> útil para alertar a los alumnos
+> útil para alertar a los alumnos.
 
 > [!CAUTION]
 > útil para sugerencias y precauciones.
