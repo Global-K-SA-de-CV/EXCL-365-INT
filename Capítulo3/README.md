@@ -255,7 +255,7 @@ Paso 10. Selecciona nuevamente el formato condicional, ve al apartado _Administr
 
 Paso 11. En el apartado se _aplica a_ seleccionalo y toma la siguiente selección _:=$A$2:$B$11_, da clic en aceptar.
 
-![img135](../images/img135.png)
+![img135](../images/IMG135.png)
 
 Con esto el formato condicional para empleados con una antigüedad mayor a 10 años también se aplicará a la columna _Emplyee ID_.
  
