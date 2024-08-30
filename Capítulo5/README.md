@@ -181,7 +181,7 @@ Paso 3. Guarda el libro de trabajo y mantén el archivo abierto.
 
 ![img208A](../images/img208A.png)
 
-# Parte 3.Presentación de datos con gráficos dinámicos (PivotCharts).
+# Parte 3. Presentación de datos con gráficos dinámicos (PivotCharts).
 
 ## Objetivo de la práctica:
 
